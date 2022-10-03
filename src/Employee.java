@@ -31,21 +31,4 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
-
-    class CRUDDemo {
-        public static void main(String[] args) {
-            int ch;
-            Scanner sc=new Scanner(System.in);
-            do {
-                System.out.println("1. INSERT");
-                System.out.println("2. DISPLAY");
-                System.out.println("3. SEARCH");
-                System.out.println("4. DELETE");
-                System.out.println("5. UPDATE");
-                System.out.println("ENTER YOUR CHOICE");
-                ch= sc.nextInt();
-
-            } while (ch != 0);
-        }
-    }
 }
